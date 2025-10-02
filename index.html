@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymart - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1 class="logo">Polymart</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Modern Tech, Minimal Design</h2>
+            <p>Discover the latest gadgets and accessories.</p>
+            <a href="#products" class="shop-btn">Shop Now</a>
+        </section>
+
+        <h2 id="products" class="section-title">Featured Products</h2>
+        <section id="product-list" class="product-grid">
+            </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Polymart E-Commerce</p>
+    </footer>
+   <div id="cart-sidebar" class="cart-sidebar">
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="close-cart-btn" class="close-btn">&times;</button>
+    </div>
+    <div id="cart-items-container" class="cart-items-container">
+        <p class="empty-message">Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+        <p>Total: <span id="cart-total">$0.00</span></p>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+</div>
+
+<div id="overlay" class="overlay"></div> <script src="script.js"></script> 
+
+    <script src="script.js"></script>
+</body>
+</html>
